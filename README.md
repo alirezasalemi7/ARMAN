@@ -99,4 +99,4 @@ We try to provide you with huggingface models as soon as possible.
 
 ## Citation
 
-It will be available when the paper publish.
+It will be available when the paper published.
