@@ -27,4 +27,4 @@ python main.py
 
 ```
 
-Also, there are some other controlling parameters available. We provided help that could be seen by `--help` in `main.py' file.
+Also, there are some other controlling parameters available. We provided help that could be seen by `--help` in `main.py` file.
