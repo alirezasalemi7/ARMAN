@@ -95,7 +95,7 @@ The codes and guidelines on how to pre-train or fine-tune the model are availabl
 
 ## huggingface models
 
-We try to provide you with huggingface models as soon as possible.
+We have converted our TF1 models into PyTorch models using the Huggingface library. You can find them [here](https://huggingface.co/alireza7). It should be noted that the reported results in our paper were produced using TF1 models, so we can not guarantee that you will get the same results using converted models.
 
 ## Citation
 
