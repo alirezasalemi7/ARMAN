@@ -99,4 +99,4 @@ We have converted our TF1 models into PyTorch models using the Huggingface libra
 
 ## Citation
 
-It will be available when the paper publish.
+It will be available when the paper published.
