@@ -1,6 +1,6 @@
 # ARMAN: Pre-training with Semantically Selecting and Reordering of Sentences for Persian Abstractive Summarization
 
-**Our paper has been accepted as long paper in EMNLP-2021 main conference, and it will be published around November 7.**
+**Our paper has been accepted as a long paper in the EMNLP-2021 main conference and you can find the preprint version [here](https://arxiv.org/abs/2109.04098).**
 
 Abstractive text summarization is one of the areas influenced by the emergence of pre-trained language models. Current pre-training works in abstractive summarization give more points to the summary with more words in common with the main text and pay less attention to the semantic similarity between generated sentences and the original document. We propose ARMAN, a Transformer-based encoder-decoder model pre-trained with three novel objectives to address this issue. In ARMAN, salient sentences from a document are selected according to a modified semantic score to be masked and form a pseudo summary. To summarize more accurately and similar to human writing patterns, we applied modified sentence reordering in the best setting. We evaluated our proposed models on six downstream Persian summarization tasks. Experimental results show that our proposed model achieves state-of-the-art performance on all six summarization tasks measured by ROUGE and BERTScore. Our models also outperform prior works in Textual Entailment, Question Paraphrasing, and Multiple Choice Question Answering. Finally, we established a human evaluation and show that using the semantic score significantly improves summarization results.
 
@@ -99,4 +99,17 @@ We have converted our TF1 models into PyTorch models using the Huggingface libra
 
 ## Citation
 
-It will be available when the paper published.
+If you use this code, please consider citing our paper:
+
+
+```
+@misc{salemi2021arman,
+      title={ARMAN: Pre-training with Semantically Selecting and Reordering of Sentences for Persian Abstractive Summarization}, 
+      author={Alireza Salemi and Emad Kebriaei and Ghazal Neisi Minaei and Azadeh Shakery},
+      year={2021},
+      eprint={2109.04098},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
